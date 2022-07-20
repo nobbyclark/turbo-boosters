@@ -9,6 +9,9 @@
     },
     "dev": {
       "cache": false
+    },
+    "web#start": {
+      "dependsOn": ["^build"]
     }
   }
 }
