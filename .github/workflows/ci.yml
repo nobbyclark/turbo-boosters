@@ -3,6 +3,9 @@ name: CI
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'apps/web/**'
+      - '.github/workflow/web.yml'
   pull_request:
     types: [opened, synchronize]
 
