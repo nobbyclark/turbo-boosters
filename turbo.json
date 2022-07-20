@@ -12,6 +12,9 @@
     },
     "web#start": {
       "dependsOn": ["^build"]
+    },
+    "docs#start": {
+      "dependsOn": ["^build"]
     }
   }
 }
