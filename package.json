@@ -11,8 +11,10 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "start": "turbo run start",
     "web#start": "turbo run start --scope=web",
-    "docs#start": "turbo run start --scope=docs"
+    "docs#start": "turbo run start --scope=docs",
+    "server#start": "turbo run start --scope=server"
   },
   "devDependencies": {
     "eslint-config-custom": "*",

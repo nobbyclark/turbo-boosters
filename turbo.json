@@ -10,10 +10,16 @@
     "dev": {
       "cache": false
     },
+    "start": {
+      "dependsOn": ["^build"]
+    },
     "web#start": {
       "dependsOn": ["^build"]
     },
     "docs#start": {
+      "dependsOn": ["^build"]
+    },
+    "server#start": {
       "dependsOn": ["^build"]
     }
   }
