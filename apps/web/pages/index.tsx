@@ -1,4 +1,9 @@
 import { Button } from "ui";
+import { User } from 'firebase/auth';
+
+interface Props {
+  user: User;
+}
 
 export default function Web() {
   return (
